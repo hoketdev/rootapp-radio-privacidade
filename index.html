@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de Privacidade — RootApp-Radio</title>
+  <meta name="description" content="Política de privacidade do RootApp-Radio (Rádio da Comunidade), App para a plataforma Root.">
+  <style>
+    :root {
+      --bg: #fbfaf7;
+      --text: #1f2328;
+      --muted: #5c6370;
+      --line: #e3e0d8;
+      --accent: #2f6f4f;
+      --card: #ffffff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #14171c;
+        --text: #e6e8eb;
+        --muted: #9aa3ad;
+        --line: #2a2f37;
+        --accent: #7cc8a0;
+        --card: #1a1e24;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 17px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    main { max-width: 760px; margin: 0 auto; padding: 48px 20px 64px; }
+    h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 8px; letter-spacing: -0.01em; }
+    h2 { font-size: 1.25rem; margin: 40px 0 12px; padding-top: 8px; border-top: 1px solid var(--line); }
+    p, ul { margin: 0 0 14px; }
+    ul { padding-left: 22px; }
+    li { margin-bottom: 6px; }
+    a { color: var(--accent); }
+    .meta { color: var(--muted); font-size: 0.95rem; margin-bottom: 28px; }
+    .lead {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-left: 4px solid var(--accent);
+      border-radius: 8px;
+      padding: 16px 18px;
+    }
+    .lang { font-size: 0.9rem; color: var(--muted); }
+    .table-wrap { overflow-x: auto; margin: 0 0 14px; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.95rem; background: var(--card); }
+    th, td { text-align: left; vertical-align: top; padding: 10px 12px; border: 1px solid var(--line); }
+    th { font-weight: 600; }
+    footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; font-style: italic; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Política de Privacidade — RootApp-Radio</h1>
+  <p class="meta">Atualizada em 5 de novembro de 2026 · <a href="#english" class="lang">English summary</a></p>
+
+  <p class="lead">O RootApp-Radio (Rádio da Comunidade) guarda só o mínimo para a rádio funcionar: quem pediu cada música e o que está na fila, no banco de dados da própria comunidade, dentro do Root. Não vendemos dados, não mostramos anúncios e não rastreamos ninguém.</p>
+
+  <h2>Responsável e contato</h2>
+  <p>O RootApp-Radio é um App para a plataforma Root, desenvolvido e mantido por <strong>Hoke</strong>. Para dúvidas, pedidos de exclusão de dados ou reclamações, mande uma mensagem direta para o usuário <strong>Hoke</strong> no Root.</p>
+  <p>O App é um projeto independente. Ele não tem vínculo com o Root, o YouTube, o Google ou o Spotify.</p>
+
+  <h2>Dados que o App usa</h2>
+  <p>O App só usa os dados abaixo, e só quando você interage com a rádio.</p>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Dado</th><th>Quando</th><th>Para quê</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>ID de usuário e apelido no Root</td><td>Ao adicionar, pular ou remover uma música</td><td>Mostrar quem pediu e aplicar o limite de músicas por pessoa</td></tr>
+        <tr><td>Pedido de música: ID e título do vídeo no YouTube, duração e horário</td><td>Ao adicionar uma música</td><td>Montar a fila e o histórico</td></tr>
+        <tr><td>Link do Spotify colado</td><td>Ao adicionar uma música</td><td>Descobrir nome e artista; guardamos só o resultado, não o link</td></tr>
+        <tr><td>Texto digitado na busca</td><td>Ao buscar uma música</td><td>Enviar à busca do YouTube; não é guardado</td></tr>
+        <tr><td>Votos para pular</td><td>Durante a música</td><td>Contar os votos; apagados quando a música termina</td></tr>
+        <tr><td>Configurações feitas pelos admins, incluindo a chave da API do YouTube</td><td>Quando um admin configura o App</td><td>Fazer a rádio funcionar do jeito que a comunidade escolheu</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>O App <strong>nunca</strong> coleta e-mail, senha, telefone, localização, mensagens do chat, áudio ou voz das calls, nem dados de pagamento.</p>
+
+  <h2>Para que usamos</h2>
+  <p>Usamos os dados só para a rádio funcionar: tocar a música certa para todos ao mesmo tempo, mostrar a fila e o histórico, contar votos e respeitar as regras que os admins da comunidade definiram.</p>
+  <p>Não vendemos nem compartilhamos dados com anunciantes, não exibimos anúncios e não criamos perfis de ninguém.</p>
+
+  <h2>Onde os dados ficam e por quanto tempo</h2>
+  <p>Os dados ficam no banco de dados da própria comunidade, hospedado na nuvem do Root. Cada comunidade que instala o App tem um banco separado, e uma comunidade não vê os dados de outra. O responsável pelo App não mantém servidores próprios nem cópias desses dados.</p>
+  <ul>
+    <li><strong>Fila e música atual:</strong> enquanto as músicas estão na fila ou tocando.</li>
+    <li><strong>Histórico:</strong> só as músicas mais recentes; as mais antigas são apagadas automaticamente.</li>
+    <li><strong>Votos para pular:</strong> até o fim da música.</li>
+    <li><strong>Configurações:</strong> até um admin alterá-las ou a comunidade remover o App.</li>
+  </ul>
+
+  <h2>Serviços de terceiros</h2>
+  <p><strong>YouTube e Google.</strong> O App usa os Serviços de API do YouTube (YouTube API Services): o player oficial do YouTube toca as músicas, e a busca por nome é feita na API de Dados do YouTube. Ao usar o App, você concorda com os <a href="https://www.youtube.com/t/terms">Termos de Serviço do YouTube</a>. O que o YouTube e o Google fazem com dados está na <a href="http://www.google.com/policies/privacy">Política de Privacidade do Google</a>.</p>
+  <ul>
+    <li>Ao tocar um vídeo, o player do YouTube pode guardar cookies ou dados parecidos no seu aparelho. Quando possível, o App usa o modo de privacidade aprimorada do YouTube (youtube-nocookie.com), que reduz esse uso.</li>
+    <li>O texto que você digita na busca é enviado ao YouTube para encontrar a música.</li>
+    <li>O App não pede login na sua conta do Google ou do YouTube e não acessa dados dela.</li>
+  </ul>
+  <p><strong>Spotify.</strong> Quando alguém cola um link do Spotify, o App consulta só as informações públicas da música (nome e artista) para encontrá-la no YouTube. Não há login no Spotify. Veja a <a href="https://www.spotify.com/legal/privacy-policy/">Política de Privacidade do Spotify</a>.</p>
+  <p><strong>Root.</strong> O App roda dentro da plataforma Root, que hospeda o App e o banco de dados de cada comunidade. O uso do Root segue a política de privacidade do próprio Root, disponível em rootapp.com.</p>
+  <p>O App não exibe anúncios e não permite que terceiros exibam anúncios nele.</p>
+
+  <h2>Seus direitos</h2>
+  <p>Pela Lei Geral de Proteção de Dados (LGPD), você pode pedir para saber quais dados seus o App guarda, corrigi-los ou apagá-los. Basta mandar uma mensagem direta para Hoke no Root informando seu apelido e a comunidade onde usa o App. Respondemos em até 15 dias.</p>
+  <p>Você também pode remover da fila, a qualquer momento, as músicas que você mesmo adicionou. Os admins da comunidade podem pedir a exclusão de todos os dados da comunidade.</p>
+
+  <h2>Mudanças nesta política</h2>
+  <p>Se o App passar a usar dados diferentes, esta página será atualizada antes da mudança, com a nova data no topo. Mudanças importantes também serão avisadas dentro do App.</p>
+
+  <section lang="en">
+    <h2 id="english">English summary</h2>
+    <p>RootApp-Radio is an independent Root App, maintained by <strong>Hoke</strong>. For questions, data requests or complaints, send a direct message to the user <strong>Hoke</strong> on Root. The App is not affiliated with Root, YouTube, Google or Spotify.</p>
+    <ul>
+      <li><strong>What it stores:</strong> your Root user ID and nickname when you add, skip or remove a song; the songs in the queue and a short history (YouTube video ID, title, duration, time); skip votes until the song ends; settings chosen by community admins. Search text and Spotify links are used only to find the song and are not stored.</li>
+      <li><strong>What it never collects:</strong> email, password, phone, location, chat messages, voice audio or payment data.</li>
+      <li><strong>Where:</strong> in the community's own database, hosted by Root. Each community's data is separate. No ads, no data selling, no profiling.</li>
+      <li><strong>YouTube API Services:</strong> this App uses YouTube API Services. By using it you agree to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. See the <a href="http://www.google.com/policies/privacy">Google Privacy Policy</a>. The embedded YouTube player may store cookies or similar data on your device; the App uses YouTube's privacy-enhanced mode when possible.</li>
+      <li><strong>Spotify:</strong> only public track info (title and artist) is looked up from a pasted link. No Spotify login. See the <a href="https://www.spotify.com/legal/privacy-policy/">Spotify Privacy Policy</a>.</li>
+      <li><strong>Your rights:</strong> ask for access, correction or deletion of your data through the contact above; we reply within 15 days.</li>
+    </ul>
+  </section>
+
+  <footer>Política escrita por Hoke em conjunto com o Claude, assistente de IA da Anthropic. Written by Hoke together with Claude, Anthropic's AI assistant.</footer>
+</main>
+</body>
+</html>
